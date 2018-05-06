@@ -14,6 +14,21 @@
 		041FA861209F475800D5ED2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041FA85F209F475800D5ED2F /* LaunchScreen.storyboard */; };
 		041FA86C209F475800D5ED2F /* CryptoListoSwiftoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA86B209F475800D5ED2F /* CryptoListoSwiftoTests.swift */; };
 		041FA877209F475800D5ED2F /* CryptoListoSwiftoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA876209F475800D5ED2F /* CryptoListoSwiftoUITests.swift */; };
+		041FA88C209F49FE00D5ED2F /* MainState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA88B209F49FE00D5ED2F /* MainState.swift */; };
+		041FA88E209F4DEC00D5ED2F /* CMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA88D209F4DEC00D5ED2F /* CMC.swift */; };
+		041FA890209F53FC00D5ED2F /* Pages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA88F209F53FC00D5ED2F /* Pages.swift */; };
+		041FA892209F542500D5ED2F /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA891209F542500D5ED2F /* Coin.swift */; };
+		041FA894209F549000D5ED2F /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA893209F549000D5ED2F /* Quote.swift */; };
+		041FA896209F577600D5ED2F /* MainStateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA895209F577600D5ED2F /* MainStateAction.swift */; };
+		041FA898209F57EA00D5ED2F /* CoinListViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA897209F57EA00D5ED2F /* CoinListViewState.swift */; };
+		041FA89A209F588E00D5ED2F /* CoinDetailViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA899209F588E00D5ED2F /* CoinDetailViewState.swift */; };
+		041FA89C209F5D0C00D5ED2F /* CoinListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA89B209F5D0C00D5ED2F /* CoinListViewController.swift */; };
+		041FA89E209F622000D5ED2F /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA89D209F622000D5ED2F /* SplitViewController.swift */; };
+		041FA8A0209F63CF00D5ED2F /* CoinDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA89F209F63CF00D5ED2F /* CoinDetailViewController.swift */; };
+		041FA8A2209F924C00D5ED2F /* ActionCreators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA8A1209F924C00D5ED2F /* ActionCreators.swift */; };
+		94D17CAE03AA95CB0BEF4496 /* Pods_CryptoListoSwiftoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808588E4C36585D0A6F7AEAF /* Pods_CryptoListoSwiftoTests.framework */; };
+		DBF858D77A446D416373F70F /* Pods_CryptoListoSwiftoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E412B516791DF332CC099771 /* Pods_CryptoListoSwiftoUITests.framework */; };
+		FE3FC3F0E11A86D7C1E456AB /* Pods_CryptoListoSwifto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F20F4F6220FD80DD0EFDAAD /* Pods_CryptoListoSwifto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,27 @@
 		041FA872209F475800D5ED2F /* CryptoListoSwiftoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoListoSwiftoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041FA876209F475800D5ED2F /* CryptoListoSwiftoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListoSwiftoUITests.swift; sourceTree = "<group>"; };
 		041FA878209F475800D5ED2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041FA88B209F49FE00D5ED2F /* MainState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainState.swift; sourceTree = "<group>"; };
+		041FA88D209F4DEC00D5ED2F /* CMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMC.swift; sourceTree = "<group>"; };
+		041FA88F209F53FC00D5ED2F /* Pages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pages.swift; sourceTree = "<group>"; };
+		041FA891209F542500D5ED2F /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		041FA893209F549000D5ED2F /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		041FA895209F577600D5ED2F /* MainStateAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStateAction.swift; sourceTree = "<group>"; };
+		041FA897209F57EA00D5ED2F /* CoinListViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListViewState.swift; sourceTree = "<group>"; };
+		041FA899209F588E00D5ED2F /* CoinDetailViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailViewState.swift; sourceTree = "<group>"; };
+		041FA89B209F5D0C00D5ED2F /* CoinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListViewController.swift; sourceTree = "<group>"; };
+		041FA89D209F622000D5ED2F /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		041FA89F209F63CF00D5ED2F /* CoinDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailViewController.swift; sourceTree = "<group>"; };
+		041FA8A1209F924C00D5ED2F /* ActionCreators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCreators.swift; sourceTree = "<group>"; };
+		0F16D111F32B9EFAA3F03AA4 /* Pods-CryptoListoSwiftoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoListoSwiftoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoListoSwiftoTests/Pods-CryptoListoSwiftoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F20F4F6220FD80DD0EFDAAD /* Pods_CryptoListoSwifto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoListoSwifto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BAF9D8BF536961E7645F2D /* Pods-CryptoListoSwifto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoListoSwifto.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoListoSwifto/Pods-CryptoListoSwifto.release.xcconfig"; sourceTree = "<group>"; };
+		2FDED6611D90002AFDD12241 /* Pods-CryptoListoSwiftoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoListoSwiftoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoListoSwiftoUITests/Pods-CryptoListoSwiftoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4515748562848970151BB211 /* Pods-CryptoListoSwiftoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoListoSwiftoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoListoSwiftoUITests/Pods-CryptoListoSwiftoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		808588E4C36585D0A6F7AEAF /* Pods_CryptoListoSwiftoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoListoSwiftoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9A58C9E7EF8D16238A920C /* Pods-CryptoListoSwifto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoListoSwifto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoListoSwifto/Pods-CryptoListoSwifto.debug.xcconfig"; sourceTree = "<group>"; };
+		DB0F8B7330802ED551054C51 /* Pods-CryptoListoSwiftoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoListoSwiftoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoListoSwiftoTests/Pods-CryptoListoSwiftoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E412B516791DF332CC099771 /* Pods_CryptoListoSwiftoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoListoSwiftoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE3FC3F0E11A86D7C1E456AB /* Pods_CryptoListoSwifto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D17CAE03AA95CB0BEF4496 /* Pods_CryptoListoSwiftoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF858D77A446D416373F70F /* Pods_CryptoListoSwiftoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,8 @@
 				041FA86A209F475800D5ED2F /* CryptoListoSwiftoTests */,
 				041FA875209F475800D5ED2F /* CryptoListoSwiftoUITests */,
 				041FA854209F475700D5ED2F /* Products */,
+				B7F3C077B9BE6F7C0800061B /* Pods */,
+				CEEBDEE56E0B473422C4158F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +138,20 @@
 		041FA855209F475700D5ED2F /* CryptoListoSwifto */ = {
 			isa = PBXGroup;
 			children = (
+				041FA862209F475800D5ED2F /* Info.plist */,
+				041FA8A1209F924C00D5ED2F /* ActionCreators.swift */,
 				041FA856209F475700D5ED2F /* AppDelegate.swift */,
 				041FA858209F475700D5ED2F /* ViewController.swift */,
-				041FA85A209F475700D5ED2F /* Main.storyboard */,
 				041FA85D209F475800D5ED2F /* Assets.xcassets */,
+				041FA886209F478100D5ED2F /* Actions */,
+				041FA884209F477100D5ED2F /* API */,
+				041FA889209F479000D5ED2F /* Controllers */,
+				041FA88A209F479700D5ED2F /* Extensions */,
 				041FA85F209F475800D5ED2F /* LaunchScreen.storyboard */,
-				041FA862209F475800D5ED2F /* Info.plist */,
+				041FA85A209F475700D5ED2F /* Main.storyboard */,
+				041FA885209F477B00D5ED2F /* Model */,
+				041FA887209F478500D5ED2F /* State */,
+				041FA888209F478900D5ED2F /* ViewState */,
 			);
 			path = CryptoListoSwifto;
 			sourceTree = "<group>";
@@ -125,6 +174,89 @@
 			path = CryptoListoSwiftoUITests;
 			sourceTree = "<group>";
 		};
+		041FA884209F477100D5ED2F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				041FA88D209F4DEC00D5ED2F /* CMC.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		041FA885209F477B00D5ED2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				041FA88F209F53FC00D5ED2F /* Pages.swift */,
+				041FA891209F542500D5ED2F /* Coin.swift */,
+				041FA893209F549000D5ED2F /* Quote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		041FA886209F478100D5ED2F /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				041FA895209F577600D5ED2F /* MainStateAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		041FA887209F478500D5ED2F /* State */ = {
+			isa = PBXGroup;
+			children = (
+				041FA88B209F49FE00D5ED2F /* MainState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		041FA888209F478900D5ED2F /* ViewState */ = {
+			isa = PBXGroup;
+			children = (
+				041FA897209F57EA00D5ED2F /* CoinListViewState.swift */,
+				041FA899209F588E00D5ED2F /* CoinDetailViewState.swift */,
+			);
+			path = ViewState;
+			sourceTree = "<group>";
+		};
+		041FA889209F479000D5ED2F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				041FA89B209F5D0C00D5ED2F /* CoinListViewController.swift */,
+				041FA89D209F622000D5ED2F /* SplitViewController.swift */,
+				041FA89F209F63CF00D5ED2F /* CoinDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		041FA88A209F479700D5ED2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B7F3C077B9BE6F7C0800061B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB9A58C9E7EF8D16238A920C /* Pods-CryptoListoSwifto.debug.xcconfig */,
+				25BAF9D8BF536961E7645F2D /* Pods-CryptoListoSwifto.release.xcconfig */,
+				0F16D111F32B9EFAA3F03AA4 /* Pods-CryptoListoSwiftoTests.debug.xcconfig */,
+				DB0F8B7330802ED551054C51 /* Pods-CryptoListoSwiftoTests.release.xcconfig */,
+				2FDED6611D90002AFDD12241 /* Pods-CryptoListoSwiftoUITests.debug.xcconfig */,
+				4515748562848970151BB211 /* Pods-CryptoListoSwiftoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEEBDEE56E0B473422C4158F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F20F4F6220FD80DD0EFDAAD /* Pods_CryptoListoSwifto.framework */,
+				808588E4C36585D0A6F7AEAF /* Pods_CryptoListoSwiftoTests.framework */,
+				E412B516791DF332CC099771 /* Pods_CryptoListoSwiftoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041FA87B209F475800D5ED2F /* Build configuration list for PBXNativeTarget "CryptoListoSwifto" */;
 			buildPhases = (
+				DFA007080D7A492CB7CB4B6E /* [CP] Check Pods Manifest.lock */,
 				041FA84F209F475700D5ED2F /* Sources */,
 				041FA850209F475700D5ED2F /* Frameworks */,
 				041FA851209F475700D5ED2F /* Resources */,
+				0CC7C2F8A82DAD6893B0A005 /* [CP] Embed Pods Frameworks */,
+				69A97858B4D48D832AE82022 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041FA87E209F475800D5ED2F /* Build configuration list for PBXNativeTarget "CryptoListoSwiftoTests" */;
 			buildPhases = (
+				EEA09484C6129FD1B05003D7 /* [CP] Check Pods Manifest.lock */,
 				041FA863209F475800D5ED2F /* Sources */,
 				041FA864209F475800D5ED2F /* Frameworks */,
 				041FA865209F475800D5ED2F /* Resources */,
+				5D084B4C723024035B6C5EEF /* [CP] Embed Pods Frameworks */,
+				DE6DCFDB27190B6AA6B6E398 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041FA881209F475800D5ED2F /* Build configuration list for PBXNativeTarget "CryptoListoSwiftoUITests" */;
 			buildPhases = (
+				B24D4F577CFAF423A9435633 /* [CP] Check Pods Manifest.lock */,
 				041FA86E209F475800D5ED2F /* Sources */,
 				041FA86F209F475800D5ED2F /* Frameworks */,
 				041FA870209F475800D5ED2F /* Resources */,
+				47B8DA065715655735DED0F3 /* [CP] Embed Pods Frameworks */,
+				A158A32EED0BCAE74862E688 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +392,183 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CC7C2F8A82DAD6893B0A005 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CryptoListoSwifto/Pods-CryptoListoSwifto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxKeyboard/RxKeyboard.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxKeyboard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoListoSwifto/Pods-CryptoListoSwifto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47B8DA065715655735DED0F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoListoSwiftoUITests/Pods-CryptoListoSwiftoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D084B4C723024035B6C5EEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoListoSwiftoTests/Pods-CryptoListoSwiftoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69A97858B4D48D832AE82022 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoListoSwifto/Pods-CryptoListoSwifto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A158A32EED0BCAE74862E688 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoListoSwiftoUITests/Pods-CryptoListoSwiftoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24D4F577CFAF423A9435633 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoListoSwiftoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6DCFDB27190B6AA6B6E398 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoListoSwiftoTests/Pods-CryptoListoSwiftoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFA007080D7A492CB7CB4B6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoListoSwifto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA09484C6129FD1B05003D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoListoSwiftoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		041FA84F209F475700D5ED2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041FA896209F577600D5ED2F /* MainStateAction.swift in Sources */,
+				041FA892209F542500D5ED2F /* Coin.swift in Sources */,
 				041FA859209F475700D5ED2F /* ViewController.swift in Sources */,
+				041FA88C209F49FE00D5ED2F /* MainState.swift in Sources */,
+				041FA8A2209F924C00D5ED2F /* ActionCreators.swift in Sources */,
+				041FA89C209F5D0C00D5ED2F /* CoinListViewController.swift in Sources */,
+				041FA890209F53FC00D5ED2F /* Pages.swift in Sources */,
 				041FA857209F475700D5ED2F /* AppDelegate.swift in Sources */,
+				041FA89A209F588E00D5ED2F /* CoinDetailViewState.swift in Sources */,
+				041FA894209F549000D5ED2F /* Quote.swift in Sources */,
+				041FA898209F57EA00D5ED2F /* CoinListViewState.swift in Sources */,
+				041FA8A0209F63CF00D5ED2F /* CoinDetailViewController.swift in Sources */,
+				041FA88E209F4DEC00D5ED2F /* CMC.swift in Sources */,
+				041FA89E209F622000D5ED2F /* SplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +739,7 @@
 		};
 		041FA87C209F475800D5ED2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9A58C9E7EF8D16238A920C /* Pods-CryptoListoSwifto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +758,7 @@
 		};
 		041FA87D209F475800D5ED2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25BAF9D8BF536961E7645F2D /* Pods-CryptoListoSwifto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +777,7 @@
 		};
 		041FA87F209F475800D5ED2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F16D111F32B9EFAA3F03AA4 /* Pods-CryptoListoSwiftoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +799,7 @@
 		};
 		041FA880209F475800D5ED2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0F8B7330802ED551054C51 /* Pods-CryptoListoSwiftoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +821,7 @@
 		};
 		041FA882209F475800D5ED2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDED6611D90002AFDD12241 /* Pods-CryptoListoSwiftoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +842,7 @@
 		};
 		041FA883209F475800D5ED2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4515748562848970151BB211 /* Pods-CryptoListoSwiftoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,29 @@
+PODS:
+  - ReSwift (4.0.1)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxKeyboard (0.8.1):
+    - RxCocoa (>= 4.0.0)
+    - RxSwift (>= 4.0.0)
+  - RxSwift (4.1.2)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+
+DEPENDENCIES:
+  - ReSwift (~> 4.0)
+  - RxCocoa (~> 4.0)
+  - RxKeyboard
+  - RxSwift (~> 4.0)
+  - SDWebImage (~> 4.0)
+
+SPEC CHECKSUMS:
+  ReSwift: f4012c613e13da7398827fe5aebdb938eaed40a3
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxKeyboard: 28d984440671becc75350b1dfae7ae08d31076df
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+
+PODFILE CHECKSUM: 6e5a244bed1988078c61ed4ab70099d31e137e2d
+
+COCOAPODS: 1.4.0
